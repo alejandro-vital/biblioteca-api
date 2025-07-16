@@ -1,0 +1,63 @@
+## Archivos y carpetas de compilación
+bin/
+obj/
+[Ll]og/
+*.log
+
+## Archivos generados por el sistema
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Archivos generados por VS Code
+.vscode/
+
+## Archivos de dependencias y paquetes
+packages/
+*.nupkg
+*.snupkg
+*.nuspec
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+## Archivos de publicación
+.publish/
+out/
+dist/
+
+## Configuración y archivos temporales
+*.tmp
+*.temp
+*.bak
+*.swp
+*.DS_Store
+*.vspscc
+*.vssscc
+*.cache
+*.ide
+
+## Visual Studio
+.vs/
+
+## Rider
+.idea/
+*.sln.iml
+
+## Archivos de test coverage
+coverage/
+*.coverage
+*.coveragexml
+TestResults/
+
+## Otros
+*.dbmdl
+*.psess
+*.vsp
+*.pdb
+*.mdb
+
+## Secretos y configuraciones locales
+secrets.json
+appsettings.*.local.json
